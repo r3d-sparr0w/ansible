@@ -1,0 +1,7 @@
+---
+- hosts: all
+
+  become: true
+  tasks:
+    upgrade: yes
+    update_cache: yes
